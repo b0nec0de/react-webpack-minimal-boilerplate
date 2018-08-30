@@ -1,13 +1,12 @@
 * {
-   box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 h1 {
-   color: mediumseagreen;
-   text-align: center;
-      
-   &:hover {
-         color: tomato;
-   }
-}
+	color: mediumseagreen;
+	text-align: center;
 
+	&:hover {
+		color: tomato;
+	}
+}
