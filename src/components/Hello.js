@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Hello = props => {
+const Hello = ({ hello }) => {
 	return (
 		<div>
-			<p>{props.hello}</p>
+			<p>{hello}</p>
 		</div>
 	);
 };
